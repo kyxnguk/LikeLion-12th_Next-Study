@@ -4,6 +4,8 @@ import MealsGrid from "@/components/meals/meals-gride";
 import { getMeals } from "@/lib/meals";
 import { Suspense } from "react";
 
+export async function generateMetadata(params) {}
+
 async function Meals() {
   const meals = await getMeals();
 
